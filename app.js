@@ -23,14 +23,6 @@ squares.forEach((item) => {
     })
 })
 
-// function win() {
-//     if (squares[0].innerHTML != '' && squares[1].innerHTML != '' && squares[2].innerHTML != '' && squares[0].innerHTML == squares[1].innerHTML && squares[1].innerHTML == squares[2].innerHTML) {
-//         result.innerHTML = `<p>win</p>`
-//     } else if (squares[3].innerHTML != '' && squares[4].innerHTML != '' && squares[5].innerHTML != '' && squares[3].innerHTML == squares[4].innerHTML && squares[4].innerHTML == squares[5].innerHTML) {
-//         result.innerHTML = `<p>win</p>`
-//     }
-// }
-
 function win() {
     let winnerLetter = 'x'
     if (count % 2 != 0) {
